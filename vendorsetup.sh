@@ -40,7 +40,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
    export FOX_VERSION="R12.1"
    export FOX_VARIANT="A14"
    export FOX_BUILD_TYPE="Stable"
-   export OF_AB_DEVICE=1
+   export FOX_AB_DEVICE=1
    export FOX_ENABLE_APP_MANAGER=1
    export OF_USE_MAGISKBOOT=1
    export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES=1
