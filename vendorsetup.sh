@@ -36,7 +36,7 @@ fi
 
 if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
    export OF_SCREEN_H=2376
-   export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
+   # export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
    export FOX_VERSION="R12.1"
    export FOX_VARIANT="A14"
    export FOX_BUILD_TYPE="Stable"
