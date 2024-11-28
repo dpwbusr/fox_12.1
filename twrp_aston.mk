@@ -13,11 +13,11 @@ $(call inherit-product, $(DEVICE_PATH)/device.mk)
 PRODUCT_RELEASE_NAME := aston
 
 ## Device identifier
-PRODUCT_DEVICE := aston
+PRODUCT_DEVICE := OP5D35L1 #
 PRODUCT_NAME := twrp_aston
 PRODUCT_BRAND := OnePlus
 # PRODUCT_MODEL := PJE110s
-PRODUCT_MODEL := OP5D35L1
+PRODUCT_MODEL := CPH2609
 PRODUCT_MANUFACTURER := OnePlus
 
 # Assert
