@@ -26,8 +26,10 @@ PRODUCT_RELEASE_NAME := aston
 $(call inherit-product, vendor/twrp/config.common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := $(PRODUCT_RELEASE_NAME)
-PRODUCT_NAME := twrp_$(PRODUCT_DEVICE)
+# PRODUCT_DEVICE := $(PRODUCT_RELEASE_NAME)
+PRODUCT_DEVICE := OP5D35L1
+# PRODUCT_NAME := twrp_$(PRODUCT_DEVICE)
+PRODUCT_NAME := twrp_$(PRODUCT_RELEASE_NAME)
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := CPH2609
 PRODUCT_MANUFACTURER := OnePlus
